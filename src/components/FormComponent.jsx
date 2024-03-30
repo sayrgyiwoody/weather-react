@@ -12,8 +12,8 @@ const FormComponent = ({fetchApi}) => {
   return (
     <div>
         <form className="flex space-x-2" onSubmit={(e) =>handleSubmit(e)}>
-            <Input onChange={ (e) => setCity(e.target.value)} className='w-3/4' label="City Name" />
-            <Button type='submit' className='w-1/4' >Search</Button>
+            <Input onChange={ (e) => setCity(e.target.value)} className='' label="City Name" />
+            <Button type='submit' className='w-full max-w-28 md:max-w-36'  variant="filled">Search</Button>
         </form>
       
     </div>
