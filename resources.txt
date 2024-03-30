@@ -1,0 +1,2 @@
+https://api.openweathermap.org/data/2.5/weather?q=Yangon&appid=b9a7796f82ab56dcc28e37243cb1d29a
+
